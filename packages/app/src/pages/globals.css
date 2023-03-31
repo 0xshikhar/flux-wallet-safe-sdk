@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .container {
+    @apply w-full max-w-5xl 2xl: max-w-7xl mx-auto px-5 lg:px-0 lg:ml-auto;
+    } */
+
+  .appbox {
+    @apply bg-black w-80 h-5/6 relative rounded-3xl flex justify-between ml-[150px];
+  }
+}
